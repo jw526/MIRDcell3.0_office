@@ -49,7 +49,7 @@ public class SurvivalCalculation {
 				z = celllabel[j][3] - cell[i][3];
 				d1 = x * x + y * y + z * z;
 
-				if(d1 >= DistSq && d1 <= SValues[0].length * SValues[0].length) {
+				if(d1 >= DistSq && d1 <= 100 * 100 /*SValues[0].length * SValues[0].length*/) {  //only take 100 rows in v3 instead of 200 to match v2
 					// Alex Rosen 7/27/2017
 					// the following if statements are to make the old model work with the the new layout requested by dr howell
 					if(radiationtarget == 0){
