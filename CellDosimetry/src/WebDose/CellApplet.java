@@ -5616,7 +5616,7 @@ jTable1.setFillsViewportHeight(true);
 			ArrayList<double[]> data;
 			double rCell = Double.parseDouble(jTextField1.getText());
 			double rNuc = Double.parseDouble(jTextField2.getText());
-			double[] r = new double[2 * longestaxis + 1 - 2 * (int) rCell];
+			double[] r = new double[longestaxis]; //jianchao wang 11/12/18
 			for (int i = 0; i < r.length; i++) {
 				r[i] = i + rCell + rCell;
 			}

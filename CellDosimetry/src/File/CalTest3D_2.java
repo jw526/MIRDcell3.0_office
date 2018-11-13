@@ -367,7 +367,7 @@ public class CalTest3D_2 {
 //		for(int k = 0; k < (2 * (int) rc - 2); k++) {
 //			jTextArea1.append("               " + crossDose0 + "    " + crossDose0 + "    " + crossDose0 + "    " + crossDose0 + "    " + crossDose0 + "    " + crossDose0 + "    " + crossDose0 + "    " + crossDose0 + "\n");
 //		}
-		for(int i = 0; i < ranges.length; i++) {
+		for(int i = 0; i < ranges.length - 2*rc + 1; i++) {
 			jTextArea1.append( (int)ranges[i] + "             " + formatter.format( doses[0][i][0] ) + "    " + formatter.format( doses[0][i][1] ) + "    " + formatter.format( doses[0][i][2] ) + "    " + formatter.format( doses[0][i][3] ) + "    " + formatter.format( doses[0][i][4] ) + "    " + formatter.format( doses[0][i][5] ) + "    " + formatter.format( doses[0][i][6] ) + "    " + formatter.format( doses[0][i][7] ) + "\n" );
 		}
 		formatter = null;
