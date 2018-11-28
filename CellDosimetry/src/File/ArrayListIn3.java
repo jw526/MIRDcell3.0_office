@@ -7,6 +7,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by Alex Rosen on 8/18/2016.
@@ -90,7 +91,7 @@ public class ArrayListIn3 {
 				for(int j = 0; j < 4; j++) {
 					datums[j] = Double.parseDouble( split[j+1] );
 				}
-				data.add(datums);
+				data.add(Arrays.copyOf(datums, 4));
 			}
 			br.close();
 
