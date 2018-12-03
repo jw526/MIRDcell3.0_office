@@ -91,7 +91,7 @@ public class ArrayListIn3 {
 				for(int j = 0; j < 4; j++) {
 					datums[j] = Double.parseDouble( split[j+1] );
 				}
-				data.add(Arrays.copyOf(datums, 4));
+				data.add(Arrays.copyOf(datums, 4)); //Use array.copyOf to copy array, as array is object
 			}
 			br.close();
 
