@@ -689,7 +689,7 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
             jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel22Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, 430, Short.MAX_VALUE)
+                .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, 420, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel22Layout.setVerticalGroup(
@@ -747,7 +747,7 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
                         .addComponent(jLabel21)
                         .addGap(22, 22, 22)
                         .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         panel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jTextField10, jTextField11});
@@ -858,10 +858,10 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
                 .addGroup(panel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jRadioButton3)
                     .addComponent(jRadioButton4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 120, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
                 .addGroup(panel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButton9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
+                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 238, Short.MAX_VALUE)
                     .addGroup(panel4Layout.createSequentialGroup()
                         .addComponent(jLabel75)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1086,7 +1086,7 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
                         .addComponent(jScrollPane2)
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
-                        .addGap(0, 123, Short.MAX_VALUE)
+                        .addGap(0, 118, Short.MAX_VALUE)
                         .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(118, 118, 118))))
         );
@@ -1125,7 +1125,7 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
                     .addComponent(panel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel20, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                    .addComponent(jPanel20, javax.swing.GroupLayout.DEFAULT_SIZE, 331, Short.MAX_VALUE)
                     .addComponent(panel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -1325,7 +1325,7 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel41Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel44, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
+                .addComponent(jLabel44, javax.swing.GroupLayout.DEFAULT_SIZE, 531, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel41Layout.setVerticalGroup(
@@ -1437,17 +1437,20 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
                     .addGroup(jPanel42Layout.createSequentialGroup()
                         .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel108, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel107, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+                            .addComponent(jLabel107, javax.swing.GroupLayout.DEFAULT_SIZE, 181, Short.MAX_VALUE)
                             .addComponent(jLabel106, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jTextField16)
                             .addComponent(jTextField15)
-                            .addComponent(jTextField17, javax.swing.GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE)))
+                            .addGroup(jPanel42Layout.createSequentialGroup()
+                                .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))))
                     .addGroup(jPanel42Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel109, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(62, 62, 62))
+                        .addComponent(jLabel109, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(32, 32, 32)))
+                .addGap(30, 30, 30))
         );
         jPanel42Layout.setVerticalGroup(
             jPanel42Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1521,7 +1524,7 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
                     .addGap(120, 120, 120)
-                    .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, 432, Short.MAX_VALUE)
+                    .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
                     .addGap(120, 120, 120)))
         );
 
@@ -1723,7 +1726,7 @@ public class CellApplet extends javax.swing.JApplet implements ActionListener {
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {"1, 2, 3", "γ-rays, X-rays, AQ",  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0)},
-                {"4, 5, 6", "β+, β-, IE",  new Double(0.83),  new Double(0.0),  new Double(0.25),  new Double(0.0),  new Double(0.25),  new Double(0.0),  new Double(0.25),  new Double(0.0)},
+                {"4, 5, 6", "β+, β-, IE",  new Double(0.25),  new Double(0.0),  new Double(0.25),  new Double(0.0),  new Double(0.25),  new Double(0.0),  new Double(0.25),  new Double(0.0)},
                 {"7", "Auger electrons",  new Double(2.3),  new Double(0.0),  new Double(0.25),  new Double(0.0),  new Double(0.25),  new Double(0.0),  new Double(0.25),  new Double(0.0)},
                 {"8", "Alpha particles",  new Double(1.4),  new Double(0.0),  new Double(1.4),  new Double(0.0),  new Double(1.4),  new Double(0.0),  new Double(1.4),  new Double(0.0)},
                 {"9", "Daughter recoil (alpha decay)",  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0),  new Double(0.0)},
@@ -1959,7 +1962,7 @@ jTable1.setFillsViewportHeight(true);
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addComponent(button6, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1988,7 +1991,7 @@ jTable1.setFillsViewportHeight(true);
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel32Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel39, javax.swing.GroupLayout.DEFAULT_SIZE, 680, Short.MAX_VALUE)
+                .addComponent(jLabel39, javax.swing.GroupLayout.DEFAULT_SIZE, 670, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel32Layout.setVerticalGroup(
@@ -2009,7 +2012,7 @@ jTable1.setFillsViewportHeight(true);
             jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel31Layout.createSequentialGroup()
                 .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 410, Short.MAX_VALUE))
+                .addGap(0, 400, Short.MAX_VALUE))
         );
 
         jPanel50.setBackground(new java.awt.Color(204, 204, 255));
@@ -2254,7 +2257,7 @@ jTable1.setFillsViewportHeight(true);
                     .addGroup(jPanel36Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addComponent(jLabel100, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(118, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel36Layout.setVerticalGroup(
             jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2285,7 +2288,7 @@ jTable1.setFillsViewportHeight(true);
                     .addComponent(jLabel83)
                     .addComponent(jTextField45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel100, javax.swing.GroupLayout.DEFAULT_SIZE, 42, Short.MAX_VALUE)
+                .addComponent(jLabel100)
                 .addContainerGap())
         );
 
@@ -2383,7 +2386,7 @@ jTable1.setFillsViewportHeight(true);
                         .addComponent(jLabel78)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jTextField43, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(143, Short.MAX_VALUE))
+                .addContainerGap(68, Short.MAX_VALUE))
         );
         jPanel35Layout.setVerticalGroup(
             jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2546,7 +2549,7 @@ jTable1.setFillsViewportHeight(true);
         jPanel40.setLayout(jPanel40Layout);
         jPanel40Layout.setHorizontalGroup(
             jPanel40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 565, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel40Layout.setVerticalGroup(
             jPanel40Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2591,7 +2594,7 @@ jTable1.setFillsViewportHeight(true);
                 .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel72)
                     .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(49, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane4.addTab("Surviving Fraction Curve", jPanel39);
@@ -2637,7 +2640,7 @@ jTable1.setFillsViewportHeight(true);
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jButton18, javax.swing.GroupLayout.DEFAULT_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel36, 434, 434, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jTabbedPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2893,7 +2896,7 @@ jTable1.setFillsViewportHeight(true);
                         .addComponent(jLabel30)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(78, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3110,7 +3113,7 @@ jTable1.setFillsViewportHeight(true);
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel104)
                     .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel101, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -3130,7 +3133,7 @@ jTable1.setFillsViewportHeight(true);
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 594, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3177,7 +3180,7 @@ jTable1.setFillsViewportHeight(true);
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel102)
                     .addComponent(jComboBox12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -3412,8 +3415,8 @@ jTable1.setFillsViewportHeight(true);
                         .addContainerGap()
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jButton17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, 475, Short.MAX_VALUE)
-                            .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, 475, Short.MAX_VALUE)
+                            .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, 475, Short.MAX_VALUE)
+                            .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, 475, Short.MAX_VALUE)
                             .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 475, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 599, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -5616,7 +5619,7 @@ jTable1.setFillsViewportHeight(true);
 			ArrayList<double[]> data;
 			double rCell = Double.parseDouble(jTextField1.getText());
 			double rNuc = Double.parseDouble(jTextField2.getText());
-			double[] r = new double[longestaxis]; //jianchao wang 11/12/18
+			double[] r = new double[longestaxis]; //jianchao wang 11/12/18 correct one? double[] r = new double[2 * longestaxis + 1 - 2 * (int) rCell];
 			for (int i = 0; i < r.length; i++) {
 				r[i] = i + rCell + rCell;
 			}
@@ -5828,7 +5831,7 @@ jTable1.setFillsViewportHeight(true);
 
 			int n = 0;
 			double sum1 = 0.0;
-			for (int i = 0; i < cellnumber; i++) {
+			for (int i = 0; i < labelcellnum; i++) { //jianchao wang 1/15/19 changed cellnumber into labelcellnum
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -5874,33 +5877,28 @@ jTable1.setFillsViewportHeight(true);
 
 			int n = 0;
 			double sum1 = 0.0;
-			for (int i = 0; i < labelcellnum && AccuActivity > 0; i++) {
-                            int j = randomgen.nextInt( cellnumber );
-				if(cell[j][4] != 0) {
-					i--;
-				} 
-                            
-				else {
+			for (int i = 0; i < labelcellnum; i++) {
+				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
                         /* self, C->C + self, CS->C */
-						cell[j][6] = cell[j][5] * (selfSVals[0][0] * activityFractions[2] + selfSVals[0][1] * activityFractions[3]);
+						cell[i][6] = cell[i][5] * (selfSVals[0][0] * activityFractions[2] + selfSVals[0][1] * activityFractions[3]);
 					} else if (radiationtarget == 1) {
 						// Radiation Target: Nucleus
                         /* self, N->N + self, Cy->N + self, CS->N */
-						cell[j][6] = cell[j][5] * (selfSVals[0][2] * activityFractions[1] + selfSVals[0][3] * activityFractions[2] + selfSVals[0][4] * activityFractions[3]);
+						cell[i][6] = cell[i][5] * (selfSVals[0][2] * activityFractions[1] + selfSVals[0][3] * activityFractions[2] + selfSVals[0][4] * activityFractions[3]);
 					} else if (radiationtarget == 2) {
 						// Radiation Target: Cytoplasm
                         /* self, N->Cy + self, Cy->Cy + self, CS->Cy */
-						cell[j][6] = cell[j][5] * (selfSVals[0][5] * activityFractions[1] + selfSVals[0][7] * activityFractions[2] + selfSVals[0][6] * activityFractions[3]);
+						cell[i][6] = cell[i][5] * (selfSVals[0][5] * activityFractions[1] + selfSVals[0][7] * activityFractions[2] + selfSVals[0][6] * activityFractions[3]);
 					} else if (radiationtarget == 3) {
 						// Radiation Target: Nucleus & Cytoplasm
                         /* self, N->N + self, Cy->N + self, CS->N + self, N->Cy + self, Cy->Cy + self, CS->Cy */
-						cell[j][6] = cell[j][5] * (selfSVals[0][2] * activityFractions[1] + selfSVals[0][3] * activityFractions[2] + selfSVals[0][4] * activityFractions[3] + selfSVals[0][5] * activityFractions[1] + selfSVals[0][7] * activityFractions[2] + selfSVals[0][6] * activityFractions[3]);
+						cell[i][6] = cell[i][5] * (selfSVals[0][2] * activityFractions[1] + selfSVals[0][3] * activityFractions[2] + selfSVals[0][4] * activityFractions[3] + selfSVals[0][5] * activityFractions[1] + selfSVals[0][7] * activityFractions[2] + selfSVals[0][6] * activityFractions[3]);
 					}
-					System.arraycopy(cell[j], 0, celllabel[n++], 0, 8);
+					System.arraycopy(cell[i], 0, celllabel[n++], 0, 8);
 					temp3++;
-					sum1 += cell[j][5];
+					sum1 += cell[i][5];
 				}
 			}
 			AveCellActivity = sum1 / labelcellnum;
@@ -5924,7 +5922,7 @@ jTable1.setFillsViewportHeight(true);
 
 			int n = 0;
 			//double sum1 = 0.0;
-			for (int i = 0; i < cellnumber; i++) {
+			for (int i = 0; i < labelcellnum; i++) {
 				if (cell[i][4] != 0) {
                                    
 					if (radiationtarget == 0) {
@@ -5969,7 +5967,7 @@ jTable1.setFillsViewportHeight(true);
 			);
 
 			int n = 0;
-			for (int i = 0; i < cellnumber; i++) {
+			for (int i = 0; i < labelcellnum; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -6012,7 +6010,7 @@ jTable1.setFillsViewportHeight(true);
 			);
 
 			int n = 0;
-			for (int i = 0; i < cellnumber; i++) {
+			for (int i = 0; i < labelcellnum; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -6047,7 +6045,7 @@ jTable1.setFillsViewportHeight(true);
 			);
 
 			int n = 0;
-			for (int i = 0; i < cellnumber; i++) {
+			for (int i = 0; i < labelcellnum; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -6109,7 +6107,7 @@ jTable1.setFillsViewportHeight(true);
 					cell
 			);
 			int counter = 0;
-			for (int i = 0; i < cellnumber; i++) {
+			for (int i = 0; i < labelcellnum; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
