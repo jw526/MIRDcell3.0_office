@@ -5831,7 +5831,7 @@ jTable1.setFillsViewportHeight(true);
 
 			int n = 0;
 			double sum1 = 0.0;
-			for (int i = 0; i < labelcellnum; i++) { //jianchao wang 1/15/19 changed cellnumber into labelcellnum
+			for (int i = 0; i < cellnumber; i++) { //jianchao wang 1/15/19 changed cellnumber into labelcellnum
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -5877,7 +5877,7 @@ jTable1.setFillsViewportHeight(true);
 
 			int n = 0;
 			double sum1 = 0.0;
-			for (int i = 0; i < labelcellnum; i++) {
+			for (int i = 0; i < cellnumber; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -5922,7 +5922,7 @@ jTable1.setFillsViewportHeight(true);
 
 			int n = 0;
 			//double sum1 = 0.0;
-			for (int i = 0; i < labelcellnum; i++) {
+			for (int i = 0; i < cellnumber; i++) {
 				if (cell[i][4] != 0) {
                                    
 					if (radiationtarget == 0) {
@@ -5967,7 +5967,7 @@ jTable1.setFillsViewportHeight(true);
 			);
 
 			int n = 0;
-			for (int i = 0; i < labelcellnum; i++) {
+			for (int i = 0; i < cellnumber; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -6010,7 +6010,7 @@ jTable1.setFillsViewportHeight(true);
 			);
 
 			int n = 0;
-			for (int i = 0; i < labelcellnum; i++) {
+			for (int i = 0; i < cellnumber; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -6045,7 +6045,7 @@ jTable1.setFillsViewportHeight(true);
 			);
 
 			int n = 0;
-			for (int i = 0; i < labelcellnum; i++) {
+			for (int i = 0; i < cellnumber; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
@@ -6107,7 +6107,7 @@ jTable1.setFillsViewportHeight(true);
 					cell
 			);
 			int counter = 0;
-			for (int i = 0; i < labelcellnum; i++) {
+			for (int i = 0; i < cellnumber; i++) {
 				if (cell[i][4] != 0) {
 					if (radiationtarget == 0) {
 						// Radiation Target: Cell
